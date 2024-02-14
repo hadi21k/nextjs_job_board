@@ -70,7 +70,7 @@ const JobDetails = ({
           </div>
         </div>
       </div>
-      <div>{description && <Markdown children={description} />}</div>
+      <div>{description && <Markdown>{description}</Markdown>}</div>
     </section>
   );
 };
