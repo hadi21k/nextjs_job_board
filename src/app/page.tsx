@@ -28,7 +28,7 @@ const getTitle = ({ q, type, location, remote }: JobFilterValues) => {
   return `${prefix}${suffix}`;
 };
 
-export function generateMetaData({
+export function generateMetadata({
   searchParams: { q, type, location, remote },
 }: HomeProps): Metadata {
   return {
